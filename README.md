@@ -13,7 +13,7 @@ apps
           |____windwos
                 |____release.json
                 |____app_name.msi.zip
-                |____app_name.msi.zip-sig
+                |____app_name.msi.zip.sig
 ```
 
 ### version.txt
@@ -28,7 +28,7 @@ apps
     "version": "0.0.1",
     "notes": "0.0.1 release",
     "pub_date": "2022-10-09T12:58:53+01:00",
-    "signature": "random hash"
+    "signature": "app_name.msi.zip.sig file content"
 }
 ```
 I currently use it to update my own private app without any problems.
